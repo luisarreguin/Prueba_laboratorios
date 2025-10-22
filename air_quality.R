@@ -2,6 +2,7 @@
 library(tidyverse)
 library(janitor)
 
+# Cargo malla airquality
 aire <-
   airquality %>%
   # esto no va

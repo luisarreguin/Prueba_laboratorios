@@ -3,7 +3,8 @@ library(janitor)
 
 aire <-
   airquality %>%
-  as_tibble() %>%
+  # esto no va
+  # as_tibble() %>%
   clean_names() %>%
   print()
 

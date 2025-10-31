@@ -1,3 +1,4 @@
+# LERA: Aquí debiste agregar un encabezado
 # Cargo las librerias
 library(tidyverse)
 library(janitor)
@@ -12,4 +13,6 @@ aire <-
 # Scatter plot de ozono vs temp
 ggplot(aire, aes(ozone, temp)) +
   geom_point() +
-  theme_light()
+# LERA: el tema era theme_bw()
+  theme_bw()
+  # theme_light() 
